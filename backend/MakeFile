@@ -1,0 +1,4 @@
+run:
+	@npx hardhat compile --force
+	@node deployContracts.js
+	@node bridgeServer.js
